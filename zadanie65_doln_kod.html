@@ -1,0 +1,125 @@
+<!--Dolny 15.12.2023-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <H1>KOD HTML</H1>
+<textarea cols="115" rows="66">
+    <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="zadanie65_doln.css"/>
+</head>
+<body>
+
+<div class="pierwszy_dolny">
+    <p class="first-child">Pierwszy akapit/pierwszy DIV--> Dolny nazwa ID akapitu id="pierwszy_dolny"<br></p> 
+
+    <p>
+        akapit/pierwszy DIV <br>
+        pierwszy akapit --> p:first-child {font-size:7mm;font-style:italic;}<br>
+        bo numer nieparzysty w dzienniku<br>
+        pozostałe akapity --> p{font-size: 11pt;}<br>
+        szerokość bloku = 700+7*4-728pt<br>
+        pierwszy DIV--> jasno zielony<br><br>
+
+        trzeci akapit/pierwszy DIV<br>
+        pierwszy DIV-> obramowanie czarne DIV<br>
+        pierwszy DIV--> obramowanie grubość 3px, ciągle (solid) pierwszy DIV--> 13=7mm+6(Łukasz)=13mm
+    </p>
+</div>
+
+
+
+
+<div class="drugi_dolny">
+<p class="first-child">Pierwszy akapit/drugi DIV--> Łukasz nazwa ID akapitu id="drugi_dolny"</p>
+
+
+<p> Drugi akapit/drugi DIV<br>
+drugi DIV--> kolor jasno niebiski<br>
+trzeci akapit/drugi DIV<br>
+drugi DIV--> obramowanie granatowy DIV<br>
+drugi DIV--> obramowanie grubość 5px, ciągłe (solid) |drugi DIV--> 12=7mm+5(Dolny)=12mm <br></p>
+
+</div>
+
+
+
+<div class="trzeci_dolny">
+<p class="first-child"> Pierwszy akapit/trzeci DIV-->  1P nazwa ID akapitu id="trzeci_dolny"</p>
+<p>
+    Drugi akapit/trzeci DIV<br>
+    pierwszy DIV--> kolor różowy<br>
+    trzeci akapit/trzeci DIV(solid)<br>
+    drugi DIV--> obramowanie fioletowy DIV <br>
+    drugi DIV--> obramowanie grubość 7px , ciągłe (solid)<br>
+    drugi DIV--> 18=7mm+11(listopad)=18mm <br>
+
+
+
+
+</p>
+</div>
+
+
+</body>
+    </html>
+    <body bgcolor="silver"> 
+
+
+</textarea>
+
+
+
+<H1>KOD CSS</H1>
+<textarea cols="115" rows="45">
+    p {
+        font-size: 11pt;
+    }
+    
+    p:first-child {
+        font-size: 7mm;
+        font-style: italic;
+    }
+    
+    div.pierwszy_dolny {
+        width: 728pt;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(62, 237, 108);
+        border-radius: 13px;
+        border: 3px solid  rgb(0, 0, 0);
+    }
+    
+    
+    
+    div.drugi_dolny
+    {
+        width: 928pt;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(94, 213, 242);
+        border-radius: 12px;
+        border: 5px solid rgb(2, 12, 122);
+    }
+    
+    
+    
+    div.trzeci_dolny
+    {
+        width: 1128pt; 
+        background-color: rgb(224, 25, 204);
+        border-radius: 18px;
+        border: 7px solid rgb(92, 5, 252);
+    }
+    
+    
+    
+    /* Łukasz Dolny */
+    </textarea>
+</body>
+</html>

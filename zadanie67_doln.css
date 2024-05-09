@@ -1,0 +1,42 @@
+.p1{
+font-size: 21pt;
+color: turquoise;
+}
+
+.p1:first-letter{
+font-size: 121pt;
+color: orange  ;
+}
+
+.p2{
+    font-size: 18pt;
+    color: turquoise;
+}
+
+
+.p2:first-letter{
+    font-size: 121pt;
+    color: blue;
+}
+.p3{
+color: turquoise;
+font-size: 18pt;
+}
+
+
+.p3:first-letter{
+    font-size: 121pt;
+
+}
+
+.p3:first-line{
+    color: red;
+}
+.h1{
+    font-size: 18pt;
+    color: turquoise;
+}
+.h1:first-letter{
+    font-size: 121pt;
+    color: silver;
+}
