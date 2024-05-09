@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<h1>Temat: Wewnętrzny arkusz stylów:</h1><br>
+
+
+<h1>1)gdzie jest wstawiany,</h1>
+
+Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <textarea cols="6" rows="5">  <head> a </head> </textarea>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).
+
+<h1>2)składnia teoretyczna (w ramce, konieczne wcięcia),</h1>
+<textarea cols="62" rows="12"> <head>
+	(...)
+<style type="text/css">
+/* <![CDATA[ */
+	selektor1 { cecha: wartość; cecha2: wartość2... }
+	selektor2 { cecha: wartość; cecha2: wartość2... }
+	(...)
+/* ]]> */
+</style>
+	(...)
+</head>
+</textarea>
+<h1>3)jakie mogą być selektory,</h1>
+<font color="black" size="4" face="Arial"><b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.<br></font>
+
+<h1>4)jakie mogą być cechy i wartości.</h1>
+<font color="black" size="4" face="Arial">Jako <b>"cecha"</b> (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz <b>"wartość"</b> wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.</font>
+
+
+
+
+
+
+
+
+</body>
+</html>

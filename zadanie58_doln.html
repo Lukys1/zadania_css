@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <ol>
+<h1><li>Co to są pseudoklasyk?</h1><br>
+    CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych 
+    elementów dokumentu są to Pseudoklasy<br>
+
+    <h1><li>Uwaga dotycząca dwukropka :</h1>
+        Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy 
+        selektorem a nazwą klasy<br>
+
+        <h1><li>Tabela(wykonana w htmlu) opisującą pseudoklasy.</h1>
+            <table style="border: 2px solid black; border-collapse: collapse;">
+                <caption></caption>
+                <thead>
+                    <tr style="background-color: #FFFFFF;">
+                        <td colspan="2" valign="center" align="center">
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;"><p align="center">A:link,</td> </p>
+                        <td style="border: 1px solid black; color: black; "><p align="center">odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze 
+                            odwiedzone.</td></p>
+                       </tr>
+
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black; "><p align="center">A:visited,
+                        </td> </p>
+                        <td style="border: 1px solid black; color: black; ;"><p align="center">odpowiada za formatowanie hiperłącza już odwiedzonego.</td></p>
+                            </tr>
+                            <tr style="font-family: Arial; font-size: 16px;">
+                                <td style="border: 1px solid black; color: black;"><p align="center">
+                                    A:hover,
+                                </td> </p>
+                                <td style="border: 1px solid black; color: black; "><p align="center">zmiany pewnych elementów po najechaniu na nie urządzeniem 
+                                    wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor
+                                    lub element blokowy DIV.
+                                </td></p>
+                               </tr>
+                               <tr style="font-family: Arial; font-size: 16px;">
+                                <td style="border: 1px solid black; color: black;"><p align="center">A:active,</td> </p>
+                                <td style="border: 1px solid black; color: black; "><p align="center">pozwala nadać dowolne formatowanie elementowi po nakierowaniu na 
+                                    niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego 
+                                    zwolnieniem (odsyłacz aktywny→kliknięty).</td></p>
+                               </tr>
+
+
+                                    <tr style="font-family: Arial; font-size: 16px;">
+                                <td style="border: 1px solid black; color: black;"><p align="center">A:focus, </td> </p>
+                                <td style="border: 1px solid black; color: black; "><p align="center">jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był 
+                                    formatowany innym kolorem. Odsyłacz posiadający tzw fokus-zaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką 
+                                    reakcję przeglądarki, jakby dany odsyłacz został kliknięty.
+                                </td></p>
+                               </tr>
+
+
+                                    <tr style="font-family: Arial; font-size: 16px;">
+                                <td style="border: 1px solid black; color: black;"><p align="center">:lang </td> </p>
+                                <td style="border: 1px solid black; color: black; "><p align="center">formatowanie wielojęzykowych dokumentów.</td></p>
+                               </tr>
+
+
+                                    <tr style="font-family: Arial; font-size: 16px;">
+                                <td style="border: 1px solid black; color: black;"><p align="center">:first-child</td> </p>
+                                <td style="border: 1px solid black; color: black; "><p align="center">umożliwia określenie formatowania dla pierwszego dziecka wybranego 
+                                    elementu. </td></p>
+                               </tr>
+             </table>
+
+        <h1><li>Zastosowanie pseudoklasy :active</h1>
+            <ol>
+            <li>można używać jako uzupełnienia definicji odnośników
+           <li> jako elementu poprawiającego czytelność formularzy.</li></ol>
+        <h1><li>Przykłady (trzy) kodów definiowania pseudoklas (wraz z tematem)</h1>
+            <textarea cols="300" rows="15">
+            Przykład
+            Temat: Arkusz wykorzystujący :link oraz :visited pseudoklasy w połączeniu z selektorem 
+            A. Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu 
+            taki odnośnik będzie miał kolor zielony.
+            A:link
+             {
+             color:red;
+             }
+            A:visited
+             {
+             color:green;
+             }
+            </textarea>
+            <textarea cols="300" rows="22">
+            Przykład
+            Temat: Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.
+            A /* Definicja odsyłacza podstawowego*/
+             {
+             font-size:12pt;
+             text-decoration:none;
+             }
+            A:link
+             {
+             color:navy;
+             }
+            A:visited
+             {
+             color:green;
+             }
+            A:hover
+             {
+             color:red;
+             text-decoration:underline;
+             }
+            </textarea>
+            <textarea cols="300" rows="7">
+            Przykład 
+            Temat: Zastosowanie :focus
+            A:focus
+             {
+             color:braun;
+             }
+            </textarea>
+
+
+
+
+
+
+
+
+
+
+</ol>
+</body>
+    </html>

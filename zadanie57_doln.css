@@ -1,0 +1,17 @@
+*{
+    font-size: 36pt;
+    color: red;
+    background-color: silver;
+}
+
+p.klasa_nieuniwersalna_dolny{
+    font-size: 36pt;
+    color: green;
+
+}
+
+
+.klasa_uniwersalna_dolny{
+    font-size: 31pt;
+    color: green;
+}

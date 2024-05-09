@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <table style="border: 2px solid black; border-collapse: collapse;">
+        <caption></caption>
+        <thead>
+            <tr style="background-color: #FFFFFF;">
+                <td colspan="2" valign="center" align="center">
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="font-family: Arial; font-size: 16px;">
+                <td colspan="2; border: 1px solid black; color: black;"><p align="center"><b>Zaokrąglanie narożników obszarów bloków np. DIV</b></td> </p>
+                </td></p>
+               </tr>
+
+               <tr style="font-family: Arial; font-size: 16px;">
+                <td style="border: 1px solid black; color: black; "><p align="center">Zaokrąglenie górnego-lewego 
+                    narożnika:
+                    
+                </td> </p>
+                <td style="border: 1px solid black; color: black; ;"><p align="center">selektor { border-top-left-radius: zaokrąglenie }
+                </td></p>
+                    </tr>
+
+
+                    <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;"><p align="center">
+                            Zaokrąglenie górnego-prawego 
+                            narożnika:   
+                        </td> </p>
+                        <td style="border: 1px solid black; color: black; ">
+                            <p align="center">                         
+                            selektor { border-top-right-radius: zaokrąglenie }
+                        </td></p>
+                       </tr>
+
+
+
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;"><p align="center">
+                            Zaokrąglenie dolnego-prawego 
+                            narożnika:
+                        </td> </p>
+                        <td style="border: 1px solid black; color: black; "><p align="center">zmiany pewnych selektor { border-bottom-right-radius: zaokrąglenie }
+                       </tr>
+
+
+
+                       <tr style="font-family: Arial; font-size: 16px;">
+                        <td style="border: 1px solid black; color: black;"><p align="center">
+                            Zaokrąglenie dolnego-lewego 
+narożnika:
+                        </td> </p>
+                        <td style="border: 1px solid black; color: black; "><p align="center">selektor { border-bottom-left-radius: zaokrąglenie }
+
+                        </td></p>
+                       </tr>
+</tbody>
+</table>
+
+
+                       <u>Zastosowanie:</u>
+                       We wszystkich przypadkach selektorem może być dowolny znacznik, np. 
+                       <br>
+                        • p-akapit<br>
+                        • h1-nagłówek<br>
+                         • div-blok<br><br><br><br>
+                   
+                       Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w 
+                       procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj 
+                       podanie:<br><br><br>
+
+                       • jednej wartości - zaokrąglenie symetryczne<br>
+
+                      • dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+                       druga - pionowy<br><br>
+                  
+                       Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę 
+                       strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone 
+                       narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie.
+
+<br><br><br><br>
+<u>Uwaga:</u>: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli 
+promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz
+
+<br>
+Przykład:<br>
+<textarea cols="40" rows="2">
+    border-top-right-radius: 10px
+
+</textarea>
+
+<br>
+Aby wycentrować  DIV w definicje CSS bloku DIV należy wpisać:<br>
+<textarea cols="40" rows="4">
+margin-left: auto;
+margin-right: auto;
+</textarea>
+
+
+
+
+
+
+
+
+
+</body>
+    </html>

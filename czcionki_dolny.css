@@ -1,0 +1,120 @@
+p#akapit1_doln{
+    font-family: serif;
+text-align: right;
+color: #0303ff;
+ 
+
+
+
+}
+p#z1_dolny{
+text-decoration: overline;
+font-variant: small-caps;
+font-weight: 500;
+font-size: small;
+
+font-family: serif;
+text-align: right;
+color: #0303ff;
+
+text-indent: 28mm;
+
+
+letter-spacing: 2ex;
+line-height: 2cm;
+word-spacing: 10px;
+}
+p#z2_dolny{
+font-style: italic;
+font-weight: 600;
+font-size: medium;
+text-align: right;
+color: #0303ff;
+
+font-family: serif;
+text-indent: 28mm;
+
+
+
+letter-spacing: 2ex;
+line-height: 2cm;
+word-spacing: 10px;
+}
+p#z3_dolny{
+font-weight: 700;
+font-size: xx-large;
+
+font-family: serif;
+text-align: right;
+color: #0303ff;
+text-indent: 28mm;
+
+
+
+letter-spacing: 2ex;
+line-height: 2cm;
+word-spacing: 10px;
+}
+
+p#akapit2_doln{
+    font-family: serif;
+text-align: center;
+color: #414541;
+
+
+
+}
+
+
+
+
+
+
+p#z4_dolny{
+    text-decoration: line-through;
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 20px;
+    
+    font-family: sans-serif;
+    text-align: right;
+    color: #5a5c5a;
+    
+    text-indent: 28mm;
+    
+    
+    letter-spacing: 0.25cm;
+    line-height: 20mm;
+    word-spacing: 10pt;
+    }
+    p#z5_dolny{
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 0.5in;
+    text-align: right;
+    color: #4c524d;
+    
+    font-family: sans-serif;
+    text-indent: 28mm;
+    text-transform: capitalize;
+    
+    
+    letter-spacing: 0.25cm;
+    line-height: 20mm;
+    word-spacing: 10pt;
+    }
+    p#z6_dolny{
+    font-weight: 800;
+    font-size: 1em;
+    
+    font-family: sans-serif;
+    text-align: right;
+    color: #8d918d;
+    text-indent: 28mm;
+    
+    
+    
+    letter-spacing: 0.25cm;
+    line-height: 20mm;
+    word-spacing: 10pt;
+    }

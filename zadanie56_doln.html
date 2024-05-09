@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <ol>
+      <h1>  <li>
+Składnia teoretyczna definiowania klasy → obramowania</h1>
+<p font="Arial"><textarea cols="50" rows="3">selektor.klasa { cecha: wartość }</textarea> 
+</p>
+<h1>
+<li>Podaj opis dla Klasa "cecha" oraz "wartość"</h1>
+<p font="Arial">Klasa to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML.
+    "cecha" oraz "wartość" określają atrybuty elementu nadane poprzez style</p>
+
+    <h1>  <li>
+
+Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem)</h1>
+<p font="Arial"><b>Selektorem</b> może być dowolny znacznik, <br>
+    np. p → akapit, <br>
+    h1 → tytuł,<br>
+    td → komórka tabeli i inne</p>
+
+    <h1>  <li>
+    Podaj uwagi na temat nazwy klas:</h1>
+    <p font="Arial">Nazwą może być dowolny pojedynczy wyraz, nie może on zawierać
+        <ol type="a">
+        <li>spacji</li>
+        <li>kropki</li>
+        <li>przecinka</li>
+        <li>dwukropka</li>
+        <li>pytajnika</li>
+        <li>nawiasów</li>
+        <li>znaku równości</li>
+        <li>plusa</li><br></ol>
+        Może zawierać:
+        <ol type="a">
+            <li>litery (A-Z, a-z)</li>
+            <li>cyfry (0-9)</li>
+            <li>myślniki ("-")</li>
+            <li>podkreślniki ("_").</li><br>
+            
+        </ol>
+        
+        Nazwa nie może zaczynać się od cyfry lub myślnika
+        Gdy chcemy użyć znaków "zakazanych" znaków, należy w deklaracji klasy 
+        poprzedzić je odwróconym ukośnikiem "\", np. reguła: selektor.B\&W\? { cecha: 
+        wartość } odpowiada klasie: class="B&W?"</p><br>
+
+
+
+        <h1>  <li>
+        Jakie jest zastosowanie klas?</h1>
+        <p font="Arial">Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się 
+            elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się 
+            selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co 
+            wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie.</p>
+
+
+
+            <h1>  <li>
+            Kiedy ma zastosowanie lista klas?</h1>
+            <p font="Arial">Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas</p>
+
+
+            <h1>  <li>
+                Składnia teoretyczna listy klasy → obramowania (może być tabele jednokomórkowa), oraz 
+                    uwagi.
+                    </h1>
+                <p font="Arial"><textarea cols="50" rows="3">
+                    <selektor class="klasa1 klasa2 klasa3...">...</selektor></textarea>
+                <br> Uwagi:
+                • przy czym klasy: klasa1, klasa2, klasa3 muszą być zdeklarowane w wewnętrznym, 
+                zewnętrznym lub importowanym arkuszu stylów.<br>
+                • Kolejność wpisywania nazw klas w wartości atrybutu class="..." nie ma znaczenia na 
+                ostateczny sposób formatowania elementu. Jeżeli kilka przypisanych klas odnosi się 
+                do tej samej własności, o wyniku decyduje zasada kaskadowości.<br></p>
+
+                <h1>  <li>
+                    Czym są podzbiory klas. Składnia teoretyczna listy klasy → obramowania</h1>
+                    <p font="Arial">Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć 
+                        jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie. Na 
+                        przykład po wpisaniu
+                    <textarea cols="50" rows="3">selektor.klasa1.klasa3 { cecha: wartość }
+                        </textarea><br>zmieniony zostanie sposób formatowania elementu
+                        <textarea cols="50" rows="3"><selektor class="klasa1 klasa2 klasa3">...</selektor></textarea>
+                        <br>Kolejność podawania klas - zarówno w regule CSS, jak i w wartości atrybutu class="..." - nie 
+                        ma znaczenia</p>
+
+
+                        
+                        <h1>  <li>
+                        Co jest sygnałem (przesłanką), że należy zastosować klasy?
+                        </h1>
+                        <p font="Arial"></p>
+                        <h1>  <li>
+
+                            Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?
+                            </h1>
+                            <p font="Arial"></p>
+                            <h1>  <li>
+
+                                Jaki jest cel stosowania komentarzy podczas definiowania klas?</h1>
+                                <p font="Arial"></p>
+                                <h1>  <li>
+
+                                    Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie).
+                                    </h1>
+                                    <p font="Arial"></p>
+                                    <h1>  <li>
+
+                                        Omów klasa donosząca się tylko do jednego selektora wraz z przykładem.</h1>
+                                        <p font="Arial"></p>
+                                        <h1>  <li>
+
+                                            Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy 
+                                                można nie stosować tego znaku. Podaj przykład (definicja, wywołanie)</h1>
+                                            <p font="Arial"></p>
+                                            
+</ol>
+                                                    
+</body>
+    </html>

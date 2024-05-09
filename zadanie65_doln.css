@@ -1,0 +1,44 @@
+p {
+    font-size: 11pt;
+}
+
+p:first-child {
+    font-size: 7mm;
+    font-style: italic;
+}
+
+div.pierwszy_dolny {
+    width: 728pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(144, 238, 144);
+    border-radius: 13px;
+    border: 3px solid  rgb(0, 0, 0);
+    
+}
+
+
+
+div.drugi_dolny
+{
+    width: 928pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(94, 213, 242);
+    border-radius: 12px;
+    border: 5px solid rgb(2, 12, 122);
+}
+
+
+
+div.trzeci_dolny
+{
+    width: 1128pt; 
+    background-color: rgb(224, 25, 204);
+    border-radius: 18px;
+    border: 7px solid rgb(92, 5, 252);
+}
+
+
+
+/* Łukasz Dolny */
