@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<! xmlns okresla przestrzeń nazw dla xml -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+    <title>styl wewnetrzny body</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style type="text/css">
+/* zerowanie wszystkich marginesów i przestrzeni*/
+* {
+margin: 0px;
+padding: 0px;
+}
+/* definicja div*/
+/* overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże*/
+div {
+overflow: hidden;
+}
+/* definicja ramki-główny element*/
+/* margin-right: auto;-wartość domyślna */
+#ramka {
+background-color: #C93;
+width: 1000px;
+margin-right: auto;
+margin-left: auto;
+}
+/* definicja nagłówka*/
+#naglowek {
+    font-size: 1cm;
+    color:limegreen;
+text-align: center;
+height: 40px;
+width: 100%;
+background-color: rgb(255, 218, 51);
+}
+/* definicja stopki*/
+#stopka {
+text-align: center;
+width: 100%;
+background-color: rgb(143, 113, 86);
+}
+/* definicja klasy kolumny */
+.kolumny {
+width:30%;
+margin-top:10px;
+margin-right:2%;
+margin-bottom:2%;
+margin-left:10px;
+}
+/* definicje trzech kolumn */
+/* float :left; to aby elementy były obok siebie */
+#kolumna_pierwsza {
+float:left;
+background-color: #a8e251;
+}
+#kolumna_druga {
+float:left;
+background-color: #5c8abe;
+}
+#kolumna_trzecia {
+background-color: #96360a;
+float:left;
+}
+</style>
+</head>
+<body>
+<div id="ramka">
+<div id="naglowek">Łukasz Dolny 1P</div>
+<div class="kolumny" id="kolumna_pierwsza">
+        <li>w oparciu o tabele (HTML->nie stosowane)</li>
+        <li>w oparciu o iframe (HTML->nie stosowane)</li>
+        <li>na DIVach</li>
+        <li>w oparciu o instrukcje HTML5</li>
+</div>
+
+<div class="kolumny" id="kolumna_druga">
+    <li>overflow: hidden; ukrycie nadmiarowości czyli gdy elementy div są za duże</li>
+    <li>float :left; to aby elementy były obok siebie</li>
+    <li>margin-top:10px; odstęp 10px od góry między ramką a całą stroną</li>
+    <li>margin-right:2%; odstęp 2% od prawej między ramką a całą stroną</li>
+    <li>margin-bottom:2%; odstęp 2px od dołu między ramką a całą stroną</li>
+    <li>margin-left:10px; odstęp 10px od lewej między ramką a całą stroną</li>
+</div>
+<div class="kolumny" id="kolumna_trzecia">
+    <li>SECTION</li>
+    <li>ARTICLE</li>
+    <LI>ASIDE</LI>
+    <LI>HEADER</LI>
+    <LI>FOOTER</LI>
+    <LI>NAV</LI>
+</div>
+<div id="stopka">Stopka strony
+    <li>w oparciu o tabele (HTML->nie stosowane)</li>
+    <li>w oparciu o iframe (HTML->nie stosowane)</li>
+    <li>na DIVach</li>
+    <li>w oparciu o instrukcje HTML5</li>
+<a href="index.html">Powrót do szkieletu</a>
+</div>
+</div>
+</body>
+</html>
+<!--Łukasz Dolny -->
