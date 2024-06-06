@@ -1,0 +1,133 @@
+div#doln{ width: 1000px;
+    margin-left: auto; /* wyśrodkowanie */
+    margin-right: auto;
+    background-color: aquamarine;
+    }
+    /* dopisanie kodu nr1*/
+    html, body
+     {
+    background-color: #dadada;
+     color: #000000;
+     margin-top: 10px;
+     font-family: 'Trebuchet MS', Arial, sans-serif;
+     }
+    
+    /* dopisanie kodu nr2*/
+     div#strona
+     {
+    width: 800px;
+     margin: 0 auto;
+     padding: 10px;
+     background-color: blue;
+     }
+    
+    /* dopisanie kodu nr3*/
+     div#naglowek
+     {
+    height: 100px;
+     padding: 10px;
+     background-color: lightblue;
+     color: darkblue;
+     }
+    
+    /* dopisanie kodu nr4*/
+     div#menu
+     {
+    width: 150px;
+     float: left;
+     overflow: hidden;
+     padding: 10px;
+     background-color: darkcyan;
+     }
+     div#menu ul
+     {
+    list-style-type: none;
+     }
+    /* dopisanie kodu nr5*/
+     div#zawartosc
+     {
+    overflow: hidden;
+     padding: 20px;
+     background-color: cyan;
+     }
+    /* dopisanie kodu nr6*/
+     div#stopka
+     {
+    clear: both;
+     padding: 10px;
+     background-color: ligh;
+     color: #ffffff;
+     }
+     Ul
+    {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    display: block; 
+    width: 150px; 
+    }
+    ul li 
+    {
+    display: block; 
+    list-style: none; 
+    margin: 0px; 
+    padding: 0px;
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+    }
+    ul a:link, ul a:visited
+    {
+    display: block;
+    color: #005500;
+    text-decoration: none;
+    border: 2px outset #cccccc; 
+    padding: 5px; 
+    width: 120px; 
+    border: 2px outset #cccccc;
+    padding: 5px;
+    width: 120px;
+    }
+    ul a:hover
+    {
+    color: #ff00ff;
+    text-decoration: none; 
+    border-style: inset; 
+    padding: 7px 3px 3px 7px; 
+    border-style: inset;
+    padding: 7px 3px 3px 7px 
+    }
+    ul
+    {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    display: block;
+    width: 150px;
+    }
+    ul li
+    {
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    ul a:link, ul a:visited
+    {
+    display: block;
+    color: #005500;
+    text-decoration: none;
+    border: 2px outset #cccccc;
+    padding: 5px;
+    width: 120px;
+    background-color: aqua;
+    }
+    ul a:hover
+    {
+    color: #ff00ff;
+    text-decoration: none;
+    border-style: inset;
+    padding: 7px 3px 3px 7px;
+    background-color: blue;
+    }
