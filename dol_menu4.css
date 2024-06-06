@@ -1,0 +1,92 @@
+body
+{
+background-color: rgb(127,95,51);
+}
+div
+{
+float: left;
+border: 1px solid #aaa;
+background: #00ffff;
+margin: 1px 0 0 0;
+width: 752px;
+}
+div ul
+{
+margin: 0;
+padding: 0;
+border: 1px solid #ccc;
+border-width: 0 1px;
+background-color: #00ffff;
+}
+div li 
+{
+position: relative;
+list-style: none;
+margin: 0;
+float: left; 
+width: 150px;
+line-height: 1em;
+}
+div ul ul
+{
+position: absolute;
+width: 150px;
+display: none;
+}
+div ul ul li
+{
+border-bottom: 1px solid #ccc;
+}
+div li.submenu
+{
+background: url(dolny.gif) 95% 50% no-repeat;
+}
+div li.submenu li.submenu
+{
+background: url(dolny.gif) 95% 50% no-repeat;
+}
+div li a:link, div li a:visited
+{
+display: block;
+padding: 0.25em 0 0.25em 0.5em;
+text-decoration: none;
+width: 150px;
+color: #005500;
+}
+div>ul a:link, div>ul a:visited
+{
+width: auto;
+color: #005500;
+}
+div li:hover
+{
+background-color: #0000ff;
+color: #ff00ff;
+text-decoration: underline;
+}
+div li.submenu:hover
+{
+background-color: #0000ff;
+color: #ff00ff;
+}
+div ul.level1 li.submenu:hover ul.level2
+{
+display: block;
+color: #ff00ff;
+}
+div ul.level2 li.submenu:hover ul.level3
+{
+display: block;
+color: #ff00ff;
+}
+div ul.level2
+{
+top: 1.5em;
+left: -1px;
+}
+div ul.level3
+{
+top: -1px;
+left: 150px;
+border-top: 1px solid #ccc;
+}
